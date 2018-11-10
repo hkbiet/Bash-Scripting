@@ -4,4 +4,7 @@
 
 	echo " CHANGING THE BRIGHTNESS LEVEL TO $1"
 
+# Replace VGA-1 by your output device by runnig xrandr and looking for the connected device.
+
 	xrandr --output VGA-1 --brightness $1
+
